@@ -62,16 +62,6 @@ Widget buildHeader2(BuildContext context) => Material(
           onTap: () {
             Navigator.pop(context);
           },
-          child: Container(
-            //color: Color.fromARGB(121, 42, 6, 202),
-            padding: EdgeInsets.only(top: 3),
-            child: Column(
-              children: [
-                CircleAvatar(
-                  radius: 52,
-                  backgroundImage: NetworkImage(
-                      'https://static.wikia.nocookie.net/narutostuff/images/0/07/Narutostuff_wiki_pics.jpg/revision/latest?cb=20110507011552'),
-                ),
                 Text(
                   'Rahul jangir',
                   style: TextStyle(fontSize: 28, color: Colors.white),
