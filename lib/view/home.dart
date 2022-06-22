@@ -54,7 +54,7 @@ class _HomeState extends State<Home> {
 
                 BlocProvider.of<ColorBloc>(context).add(ColorBlueEvent(int.parse(emailC.text)));
               },
-              child: Text('ss111')),
+              child: Text('ss2222')),
           
         ],
       ),
